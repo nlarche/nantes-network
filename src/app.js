@@ -1,36 +1,40 @@
 import xs from 'xstream';
-import {div, h1, select, option} from '@cycle/dom';
+import {div, h1, p} from '@cycle/dom';
 
-import networking from './networking'
-import Select from './select'
+import Select from './select/select'
+import List from './list/list'
 
-
-function getBody(results, selectVDom, selectValue) {
+function getBody(results, selectVDom, listVDom) {
   return div('.container', [
     h1('#title', ['Nantes Network']),
+    p('select'),
     selectVDom,
-    selectValue.value   ,
+    p('list'),
+    listVDom,
     div('.result', results),
   ])
 }
 
-function view(state$, selectVDom$, selectValue$) {
-  return xs.combine(state$, selectVDom$, selectValue$)
-    .map(([state, selectVDom, selectValue]) => getBody(state, selectVDom, selectValue))
+function view(state$, selectVDom$, listVDom$) {
+  return xs.combine(state$, selectVDom$, listVDom$)
+    .map(([state, selectVDom, listVDom]) => getBody(state, selectVDom, listVDom))
 }
 
-export default function main(sources) {
+export default function main(sources) { 
 
-  const childSources = { DOM: sources.DOM, HTTP: sources.HTTP, props: xs.of({}) };
-  const select = Select(childSources)
+  const select = Select({ DOM: sources.DOM, HTTP: sources.HTTP, props: xs.of({}) });
   const selectVDom$ = select.DOM;
-  const selectVHttp$ = select.HTTP;
-  const selectValue$ = select.value;
+  const selectHttp$ = select.HTTP;
+  const selectValue$ = select.value;  
 
-  const vtree$ = view(xs.of({}), selectVDom$, selectValue$);
+  const list = List({ DOM: sources.DOM, HTTP: sources.HTTP, props$: selectValue$ });
+  const listVDom$ = list.DOM;
+  const listHttp$ = list.HTTP;
+
+  const vtree$ = view(xs.of({}), selectVDom$, listVDom$);
 
   return {
     DOM: vtree$,
-    HTTP: selectVHttp$
+    HTTP: xs.merge(selectHttp$, listHttp$) 
   };
 }
