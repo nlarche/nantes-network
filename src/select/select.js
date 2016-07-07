@@ -3,13 +3,11 @@ import {div, select, option} from '@cycle/dom';
 
 import networking from './networking'
 
-function getSelect(state) {
+function getSelect(state) {  
   if (state.station) {
     return select('.station',
       state.station.map(st => option({ attrs: { value: st.codeLieu }}, [st.libelle]))
     )
-  } else {
-    return div('loading...')
   }
 }
 

@@ -4,25 +4,30 @@ import {div, h1, p} from '@cycle/dom';
 import Select from './select/select'
 import List from './list/list'
 
-function getBody(results, selectVDom, listVDom) {
+function loading(){
+  return div('loading ...')
+}
+
+function getBody(state, selectVDom, listVDom) {
   return div('.container', [
     h1('#title', ['Nantes Network']),
     p('select'),
-    selectVDom,
+    selectVDom ? selectVDom: loading(),
     p('list'),
-    listVDom,
-    div('.result', results),
+    listVDom ? listVDom : loading()
   ])
 }
 
 function view(state$, selectVDom$, listVDom$) {
-  return xs.combine(state$, selectVDom$, listVDom$)
+  const select$= selectVDom$.startWith(null)
+  const list$= listVDom$.startWith(null)  
+  return xs.combine(state$, select$, list$)
     .map(([state, selectVDom, listVDom]) => getBody(state, selectVDom, listVDom))
 }
 
 export default function main(sources) { 
 
-  const select = Select({ DOM: sources.DOM, HTTP: sources.HTTP, props: xs.of({}) });
+  const select = Select({ DOM: sources.DOM, HTTP: sources.HTTP });
   const selectVDom$ = select.DOM;
   const selectHttp$ = select.HTTP;
   const selectValue$ = select.value;  

@@ -3,10 +3,19 @@ import {div} from '@cycle/dom';
 
 import networking from './networking'
 
+function getInfo(station){
+  return div('.infoStation', [
+    div('.numligne' , [station.ligne.numLigne]),
+    div('.typeligne' , [station.ligne.typeLigne]),
+    div('.terminus', [station.terminus]),
+    div('.temps', [station.temps]),
+  ])
+}
+
 function getListe(state) {
   if (state.station) {
     return div('.liste',
-      state.station.map(st => div(st.arret.codeArret))
+      state.station.map(st => getInfo(st))
     )
   } else {
     return div('loading...')

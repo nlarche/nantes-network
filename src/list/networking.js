@@ -1,6 +1,6 @@
 import xs from 'xstream';
 const BASE_URL = "http://localhost:3030/ewp/tempsattente.json/";
-const INTERVAL_TIME = 5000;
+const INTERVAL_TIME = 30000;
 const CATEGORY = 'liste';
 
 export default {
@@ -14,7 +14,8 @@ export default {
   },
 
   getRequestURL(line$) {
-    return line$
+    const interval$ = xs.periodic(INTERVAL_TIME);
+    const lineURL$ = line$
       .filter(l => l.value !== undefined)
       .startWith({
         value: 'COMM'
@@ -28,5 +29,7 @@ export default {
           "Accept-language": "fr_FR"
         },
       }));
+    const final$ = xs.combine(lineURL$, interval$).map(([line, int]) => line);
+    return final$
   }
 }

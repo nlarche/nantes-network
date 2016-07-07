@@ -1,6 +1,5 @@
 import xs from 'xstream';
 const BASE_URL = "http://localhost:3030/ewp/arrets.json";
-const INTERVAL_TIME = 5000;
 const CATEGORY = 'station';
 
 export default {
@@ -13,7 +12,7 @@ export default {
       })      
   },
 
-  getRequestURL(line$) {
+  getRequestURL() {
     return xs.of({
       url: `${BASE_URL}`,
       method: 'GET',
