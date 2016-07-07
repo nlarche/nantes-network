@@ -2,43 +2,35 @@ import xs from 'xstream';
 import {div, h1, select, option} from '@cycle/dom';
 
 import networking from './networking'
+import Select from './select'
 
-function getBody(results) {
+
+function getBody(results, selectVDom, selectValue) {
   return div('.container', [
     h1('#title', ['Nantes Network']),
-    select('#lines', [
-      option({ value: 'circle' }, ['Circle line']),
-      option({ value: 'northern' }, ['Northern line']),
-      option({ value: 'bakerloo' }, ['Bakerloo line']),
-      option({ value: 'central' }, ['Central line']),
-      option({ value: 'district' }, ['District line']),
-      option({ value: 'piccadilly' }, ['Piccadilly line']),
-      option({ value: 'victoria' }, ['Victora line']),
-    ]),
+    selectVDom,
+    selectValue.value   ,
     div('.result', results),
   ])
 }
 
-function view(state$) {
-  return state$.map(state => getBody(state))
-}
-
-function intent(DOM) {
-  return {
-    station$: xs.of({}),
-    line$: xs.of({})
-  }
+function view(state$, selectVDom$, selectValue$) {
+  return xs.combine(state$, selectVDom$, selectValue$)
+    .map(([state, selectVDom, selectValue]) => getBody(state, selectVDom, selectValue))
 }
 
 export default function main(sources) {
-  const response$ = networking.processResponse(sources.HTTP);
-  const actions = intent(sources.DOM);
-  // const state$ = model(response$, actions);
-  const vtree$ = view(actions.station$);
-  const stationRequest$ = networking.getRequestURL(actions.line$);
+
+  const childSources = { DOM: sources.DOM, HTTP: sources.HTTP, props: xs.of({}) };
+  const select = Select(childSources)
+  const selectVDom$ = select.DOM;
+  const selectVHttp$ = select.HTTP;
+  const selectValue$ = select.value;
+
+  const vtree$ = view(xs.of({}), selectVDom$, selectValue$);
 
   return {
     DOM: vtree$,
-    HTTP: stationRequest$
+    HTTP: selectVHttp$
   };
 }
