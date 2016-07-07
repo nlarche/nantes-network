@@ -1,11 +1,13 @@
 import xs from 'xstream';
 import {div, select, option} from '@cycle/dom';
 
+import Style from './select.css'
 import networking from './networking'
+
 
 function getSelect(state) {  
   if (state.station) {
-    return select('.station',
+    return select('.station ' + Style.select,
       state.station.map(st => option({ attrs: { value: st.codeLieu }}, [st.libelle]))
     )
   }

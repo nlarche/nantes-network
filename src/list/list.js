@@ -1,10 +1,11 @@
 import xs from 'xstream';
 import {div} from '@cycle/dom';
 
+import Style from './list.css'
 import networking from './networking'
 
 function getInfo(station){
-  return div('.infoStation', [
+  return div('.infoStation ' + Style.infoStation, [
     div('.numligne' , [station.ligne.numLigne]),
     div('.typeligne' , [station.ligne.typeLigne]),
     div('.terminus', [station.terminus]),
@@ -14,7 +15,7 @@ function getInfo(station){
 
 function getListe(state) {
   if (state.station) {
-    return div('.liste',
+    return div('.liste ' + Style.liste,
       state.station.map(st => getInfo(st))
     )
   } else {

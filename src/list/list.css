@@ -1,0 +1,10 @@
+.liste {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+.infoStation {
+  display: flex;
+  flex-direction: column;
+}
