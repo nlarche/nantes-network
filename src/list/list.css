@@ -27,5 +27,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
-    border-bottom: solid
+    background-color: rgba(35, 187, 35, 0.43);
+    padding: 20px
+}
+
+.temps {    
+  	align-self: center;
+    font-size: xx-large;
+    padding: 25px    
 }

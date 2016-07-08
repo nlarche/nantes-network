@@ -10,7 +10,7 @@ function getInfo(station){
       station.ligne.numLigne ? div(["Ligne " + station.ligne.numLigne]): '',
       div(station.terminus)]),
     div('.typeligne' , [station.ligne.typeLigne]),
-    div('.temps', [station.temps]),
+    div('.temps ' + Style.temps, [station.temps]),
   ])
 }
 
