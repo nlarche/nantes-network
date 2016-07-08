@@ -4,12 +4,23 @@ import {div} from '@cycle/dom';
 import Style from './list.css'
 import networking from './networking'
 
-function getInfo(station){
+function getTypeIcon(station) {
+  var type = station.ligne.typeLigne;
+  if (type === 1) {
+    return Style.tramway
+  } else if (type === 2) {
+    return Style.bus
+  } else if (type === 3) {
+    return Style.busway
+  }
+}
+
+function getInfo(station) {
   return div('.infoStation ' + Style.infoStation, [
-    div('.title ' + Style.numLigne , [
-      station.ligne.numLigne ? div(["Ligne " + station.ligne.numLigne]): '',
+    div('.title ' + Style.numLigne, [
+      div('.typeligne ' + getTypeIcon(station), []),
+      div(["Ligne " + station.ligne.numLigne]),
       div(station.terminus)]),
-    div('.typeligne' , [station.ligne.typeLigne]),
     div('.temps ' + Style.temps, [station.temps]),
   ])
 }
@@ -41,11 +52,11 @@ function view(state$) {
 
 export default function List(sources) {
   const response$ = networking.processResponse(sources.HTTP);
-  
+
   const actions = intent(sources);
   const state$ = model(response$, actions);
   const vtree$ = view(state$);
-  
+
   const stationRequest$ = networking.getRequestURL(actions.station$);
 
   return {
