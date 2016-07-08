@@ -1,0 +1,186 @@
+[
+  {
+    "codeLieu": "CRQU",
+    "libelle": "Place du Cirque",
+    "distance": "21 m",
+    "ligne": [
+      {
+        "numLigne": "2"
+      },
+      {
+        "numLigne": "C1"
+      },
+      {
+        "numLigne": "C2"
+      },
+      {
+        "numLigne": "C6"
+      },
+      {
+        "numLigne": "11"
+      },
+      {
+        "numLigne": "23"
+      }
+    ]
+  },
+  {
+    "codeLieu": "BRTA",
+    "libelle": "Bretagne",
+    "distance": "133 m",
+    "ligne": [
+      {
+        "numLigne": "3"
+      }
+    ]
+  },
+  {
+    "codeLieu": "CMAR",
+    "libelle": "Cirque-Marais",
+    "distance": "162 m",
+    "ligne": [
+      {
+        "numLigne": "C2"
+      },
+      {
+        "numLigne": "12"
+      },
+      {
+        "numLigne": "23"
+      }
+    ]
+  },
+  {
+    "codeLieu": "SNIC",
+    "libelle": "St-Nicolas",
+    "distance": "198 m",
+    "ligne": [
+      {
+        "numLigne": "C1"
+      },
+      {
+        "numLigne": "C3"
+      },
+      {
+        "numLigne": "C6"
+      },
+      {
+        "numLigne": "23"
+      },
+      {
+        "numLigne": "26"
+      },
+      {
+        "numLigne": "54"
+      }
+    ]
+  },
+  {
+    "codeLieu": "HVNA",
+    "libelle": "HÃ´tel de Ville",
+    "distance": "218 m",
+    "ligne": [
+      {
+        "numLigne": "C1"
+      },
+      {
+        "numLigne": "C6"
+      },
+      {
+        "numLigne": "11"
+      },
+      {
+        "numLigne": "12"
+      }
+    ]
+  },
+  {
+    "codeLieu": "COMM",
+    "libelle": "Commerce",
+    "distance": "230 m",
+    "ligne": [
+      {
+        "numLigne": "1"
+      },
+      {
+        "numLigne": "C2"
+      },
+      {
+        "numLigne": "C3"
+      },
+      {
+        "numLigne": "C5"
+      },
+      {
+        "numLigne": "11"
+      },
+      {
+        "numLigne": "26"
+      },
+      {
+        "numLigne": "54"
+      },
+      {
+        "numLigne": "NA"
+      }
+    ]
+  },
+  {
+    "codeLieu": "JJNA",
+    "libelle": "Jean JaurÃ¨s",
+    "distance": "344 m",
+    "ligne": [
+      {
+        "numLigne": "3"
+      }
+    ]
+  },
+  {
+    "codeLieu": "OTAG",
+    "libelle": "50 Otages",
+    "distance": "354 m",
+    "ligne": [
+      {
+        "numLigne": "2"
+      },
+      {
+        "numLigne": "C2"
+      },
+      {
+        "numLigne": "12"
+      },
+      {
+        "numLigne": "23"
+      }
+    ]
+  },
+  {
+    "codeLieu": "STPI",
+    "libelle": "St-Pierre",
+    "distance": "388 m",
+    "ligne": [
+      {
+        "numLigne": "C1"
+      },
+      {
+        "numLigne": "C6"
+      },
+      {
+        "numLigne": "11"
+      },
+      {
+        "numLigne": "12"
+      }
+    ]
+  },
+  {
+    "codeLieu": "BOFA",
+    "libelle": "Bouffay",
+    "distance": "391 m",
+    "ligne": [
+      {
+        "numLigne": "1"
+      }
+    ]
+  }
+]

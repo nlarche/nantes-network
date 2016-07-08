@@ -1,5 +1,5 @@
 import xs from 'xstream';
-const BASE_URL = "http://localhost:3030/ewp/tempsattente.json/";
+const BASE_URL = "http://localhost:3001/ewp/tempsattente.json";
 const INTERVAL_TIME = 30000;
 const CATEGORY = 'liste';
 
@@ -14,14 +14,14 @@ export default {
   },
 
   getRequestURL(line$) {
-    const interval$ = xs.periodic(INTERVAL_TIME);
+    const interval$ = xs.periodic(INTERVAL_TIME).startWith(0);
     const lineURL$ = line$
       .filter(l => l.value !== undefined)
       .startWith({
         value: 'COMM'
       })
       .map(l => ({
-        url: `${BASE_URL}${l.value}`,
+        url: `${BASE_URL}`, /*/${l.value}`, */
         method: 'GET',
         category: CATEGORY,
         headers: {

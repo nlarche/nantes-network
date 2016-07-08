@@ -1,0 +1,1276 @@
+[
+  {
+    "sens": 1,
+    "terminus": "Jamet",
+    "infotrafic": true,
+    "temps": "Proche",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMB2"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Ranzay",
+    "infotrafic": true,
+    "temps": "Proche",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMC1"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Gare SNCF Sud",
+    "infotrafic": true,
+    "temps": "Proche",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMD2"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Nantes-Atlantique",
+    "infotrafic": true,
+    "temps": "Proche",
+    "ligne": {
+      "numLigne": "NA",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMD3"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Tertre",
+    "infotrafic": true,
+    "temps": "1 mn",
+    "ligne": {
+      "numLigne": "11",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COME3"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Bd de La Baule",
+    "infotrafic": true,
+    "temps": "1 mn",
+    "ligne": {
+      "numLigne": "C3",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMF1"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "FranÃ§ois Mitterrand",
+    "infotrafic": true,
+    "temps": "3 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMB2"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "HÃ´tel de RÃ©gion",
+    "infotrafic": true,
+    "temps": "3 mn",
+    "ligne": {
+      "numLigne": "26",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COME3"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Gare SNCF Sud",
+    "infotrafic": true,
+    "temps": "3 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COME3"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "HÃ´tel Dieu",
+    "infotrafic": true,
+    "temps": "4 mn",
+    "ligne": {
+      "numLigne": "54",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COME3"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Le Cardo",
+    "infotrafic": true,
+    "temps": "4 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMA8"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Beaujoire",
+    "infotrafic": true,
+    "temps": "5 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMC1"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Tertre",
+    "infotrafic": true,
+    "temps": "6 mn",
+    "ligne": {
+      "numLigne": "11",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMD5"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Le Cardo",
+    "infotrafic": true,
+    "temps": "6 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMF1"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Bd de Doulon",
+    "infotrafic": true,
+    "temps": "6 mn",
+    "ligne": {
+      "numLigne": "C3",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COME3"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "HÃ´tel de RÃ©gion",
+    "infotrafic": true,
+    "temps": "7 mn",
+    "ligne": {
+      "numLigne": "26",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMD6"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Beaujoire",
+    "infotrafic": true,
+    "temps": "8 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMC1"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "FranÃ§ois Mitterrand",
+    "infotrafic": true,
+    "temps": "8 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMB2"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Perray",
+    "infotrafic": true,
+    "temps": "10 mn",
+    "ligne": {
+      "numLigne": "11",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMA6"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Gare SNCF Sud",
+    "infotrafic": true,
+    "temps": "10 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMD2"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Gare SNCF Sud",
+    "infotrafic": true,
+    "temps": "11 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COME3"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Bd de La Baule",
+    "infotrafic": true,
+    "temps": "11 mn",
+    "ligne": {
+      "numLigne": "C3",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMF1"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Beaujoire",
+    "infotrafic": true,
+    "temps": "12 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMC1"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Jamet",
+    "infotrafic": true,
+    "temps": "13 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMB2"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Le Cardo",
+    "infotrafic": true,
+    "temps": "14 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMF1"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Le Cardo",
+    "infotrafic": true,
+    "temps": "14 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMA8"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "FranÃ§ois Mitterrand",
+    "infotrafic": true,
+    "temps": "16 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMB2"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Bd de Doulon",
+    "infotrafic": true,
+    "temps": "16 mn",
+    "ligne": {
+      "numLigne": "C3",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COME3"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Beaujoire",
+    "infotrafic": true,
+    "temps": "17 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMC1"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "JoneliÃ¨re",
+    "infotrafic": true,
+    "temps": "17 mn",
+    "ligne": {
+      "numLigne": "26",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMA6"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Tertre",
+    "infotrafic": true,
+    "temps": "19 mn",
+    "ligne": {
+      "numLigne": "11",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COME3"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "JoneliÃ¨re",
+    "infotrafic": true,
+    "temps": "19 mn",
+    "ligne": {
+      "numLigne": "26",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMF1"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "HÃ´tel Dieu",
+    "infotrafic": true,
+    "temps": "19 mn",
+    "ligne": {
+      "numLigne": "54",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COME3"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Gare SNCF Sud",
+    "infotrafic": true,
+    "temps": "19 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMD2"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Gare SNCF Sud",
+    "infotrafic": true,
+    "temps": "19 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COME3"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "FranÃ§ois Mitterrand",
+    "infotrafic": true,
+    "temps": "21 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMB2"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Ranzay",
+    "infotrafic": true,
+    "temps": "21 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMC1"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Le Cardo",
+    "infotrafic": true,
+    "temps": "21 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMA8"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Bd de La Baule",
+    "infotrafic": true,
+    "temps": "21 mn",
+    "ligne": {
+      "numLigne": "C3",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMF1"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Nantes-Atlantique",
+    "infotrafic": true,
+    "temps": "21 mn",
+    "ligne": {
+      "numLigne": "NA",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMD3"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Le Cardo",
+    "infotrafic": true,
+    "temps": "22 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMF1"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Beaujoire",
+    "infotrafic": true,
+    "temps": "24 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMC1"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Jamet",
+    "infotrafic": true,
+    "temps": "25 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMB2"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Bd de Doulon",
+    "infotrafic": true,
+    "temps": "26 mn",
+    "ligne": {
+      "numLigne": "C3",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COME3"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Gare SNCF Sud",
+    "infotrafic": true,
+    "temps": "27 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COME3"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Gare SNCF Sud",
+    "infotrafic": true,
+    "temps": "27 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMD2"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "FranÃ§ois Mitterrand",
+    "infotrafic": true,
+    "temps": "28 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMB2"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "HÃ´tel de RÃ©gion",
+    "infotrafic": true,
+    "temps": "28 mn",
+    "ligne": {
+      "numLigne": "26",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COME3"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Beaujoire",
+    "infotrafic": true,
+    "temps": "29 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMC1"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Perray",
+    "infotrafic": true,
+    "temps": "29 mn",
+    "ligne": {
+      "numLigne": "11",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMA6"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "HÃ´tel de RÃ©gion",
+    "infotrafic": true,
+    "temps": "29 mn",
+    "ligne": {
+      "numLigne": "26",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMD6"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Le Cardo",
+    "infotrafic": true,
+    "temps": "29 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMA8"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Le Cardo",
+    "infotrafic": true,
+    "temps": "30 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMF1"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Bd de La Baule",
+    "infotrafic": true,
+    "temps": "31 mn",
+    "ligne": {
+      "numLigne": "C3",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMF1"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "FranÃ§ois Mitterrand",
+    "infotrafic": true,
+    "temps": "33 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMB2"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Ranzay",
+    "infotrafic": true,
+    "temps": "33 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMC1"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "HÃ´tel Dieu",
+    "infotrafic": true,
+    "temps": "34 mn",
+    "ligne": {
+      "numLigne": "54",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COME3"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Gare SNCF Sud",
+    "infotrafic": true,
+    "temps": "35 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMD2"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Gare SNCF Sud",
+    "infotrafic": true,
+    "temps": "35 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COME3"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Beaujoire",
+    "infotrafic": true,
+    "temps": "36 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMC1"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Bd de Doulon",
+    "infotrafic": true,
+    "temps": "36 mn",
+    "ligne": {
+      "numLigne": "C3",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COME3"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Jamet",
+    "infotrafic": true,
+    "temps": "37 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMB2"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Tertre",
+    "infotrafic": true,
+    "temps": "37 mn",
+    "ligne": {
+      "numLigne": "11",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COME3"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Le Cardo",
+    "infotrafic": true,
+    "temps": "37 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMA8"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Le Cardo",
+    "infotrafic": true,
+    "temps": "38 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMF1"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "FranÃ§ois Mitterrand",
+    "infotrafic": true,
+    "temps": "40 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMB2"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Beaujoire",
+    "infotrafic": true,
+    "temps": "41 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMC1"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Bd de La Baule",
+    "infotrafic": true,
+    "temps": "41 mn",
+    "ligne": {
+      "numLigne": "C3",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMF1"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Nantes-Atlantique",
+    "infotrafic": true,
+    "temps": "41 mn",
+    "ligne": {
+      "numLigne": "NA",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMD3"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "JoneliÃ¨re",
+    "infotrafic": true,
+    "temps": "43 mn",
+    "ligne": {
+      "numLigne": "26",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMA6"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Gare SNCF Sud",
+    "infotrafic": true,
+    "temps": "43 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMD2"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Gare SNCF Sud",
+    "infotrafic": true,
+    "temps": "43 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COME3"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "JoneliÃ¨re",
+    "infotrafic": true,
+    "temps": "44 mn",
+    "ligne": {
+      "numLigne": "26",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMF1"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "FranÃ§ois Mitterrand",
+    "infotrafic": true,
+    "temps": "45 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMB2"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Ranzay",
+    "infotrafic": true,
+    "temps": "45 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMC1"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Le Cardo",
+    "infotrafic": true,
+    "temps": "45 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMA8"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Le Cardo",
+    "infotrafic": true,
+    "temps": "46 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMF1"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Bd de Doulon",
+    "infotrafic": true,
+    "temps": "46 mn",
+    "ligne": {
+      "numLigne": "C3",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COME3"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Perray",
+    "infotrafic": true,
+    "temps": "47 mn",
+    "ligne": {
+      "numLigne": "11",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMA6"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Beaujoire",
+    "infotrafic": true,
+    "temps": "48 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMC1"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Jamet",
+    "infotrafic": true,
+    "temps": "49 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMB2"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "HÃ´tel Dieu",
+    "infotrafic": true,
+    "temps": "49 mn",
+    "ligne": {
+      "numLigne": "54",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COME3"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Gare SNCF Sud",
+    "infotrafic": true,
+    "temps": "51 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMD2"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Gare SNCF Sud",
+    "infotrafic": true,
+    "temps": "51 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COME3"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Bd de La Baule",
+    "infotrafic": true,
+    "temps": "51 mn",
+    "ligne": {
+      "numLigne": "C3",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMF1"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "FranÃ§ois Mitterrand",
+    "infotrafic": true,
+    "temps": "52 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMB2"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Beaujoire",
+    "infotrafic": true,
+    "temps": "53 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMC1"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "HÃ´tel de RÃ©gion",
+    "infotrafic": true,
+    "temps": "53 mn",
+    "ligne": {
+      "numLigne": "26",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COME3"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Le Cardo",
+    "infotrafic": true,
+    "temps": "53 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMA8"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "HÃ´tel de RÃ©gion",
+    "infotrafic": true,
+    "temps": "54 mn",
+    "ligne": {
+      "numLigne": "26",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMD6"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Le Cardo",
+    "infotrafic": true,
+    "temps": "54 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMF1"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Tertre",
+    "infotrafic": true,
+    "temps": "55 mn",
+    "ligne": {
+      "numLigne": "11",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COME3"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Bd de Doulon",
+    "infotrafic": true,
+    "temps": "56 mn",
+    "ligne": {
+      "numLigne": "C3",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COME3"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "FranÃ§ois Mitterrand",
+    "infotrafic": true,
+    "temps": "57 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMB2"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Ranzay",
+    "infotrafic": true,
+    "temps": "57 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "COMC1"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Gare SNCF Sud",
+    "infotrafic": true,
+    "temps": "59 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMD2"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Gare SNCF Sud",
+    "infotrafic": true,
+    "temps": "59 mn",
+    "ligne": {
+      "numLigne": "C2",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COME3"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "Hangar Ã  Bananes",
+    "infotrafic": false,
+    "temps": ">1h",
+    "ligne": {
+      "numLigne": "C5",
+      "typeLigne": 3
+    },
+    "arret": {
+      "codeArret": "COMD4"
+    }
+  }
+]

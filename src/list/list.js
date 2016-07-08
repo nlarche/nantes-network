@@ -6,9 +6,10 @@ import networking from './networking'
 
 function getInfo(station){
   return div('.infoStation ' + Style.infoStation, [
-    div('.numligne' , [station.ligne.numLigne]),
+    div('.title ' + Style.numLigne , [
+      station.ligne.numLigne ? div(["Ligne " + station.ligne.numLigne]): '',
+      div(station.terminus)]),
     div('.typeligne' , [station.ligne.typeLigne]),
-    div('.terminus', [station.terminus]),
     div('.temps', [station.temps]),
   ])
 }
