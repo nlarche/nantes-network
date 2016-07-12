@@ -1,5 +1,6 @@
+/* global SERVER_URL */
 import xs from 'xstream';
-const BASE_URL = "http://localhost:3001/ewp/arrets.json";
+const BASE_URL = SERVER_URL + "ewp/arrets.json";
 const CATEGORY = 'station';
 
 export default {
