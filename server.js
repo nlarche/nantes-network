@@ -1,10 +1,10 @@
 var express = require('express');  
 var request = require('request');
 
-const BASE_URL = "http://open_preprod.tan.fr";
+const BASE_URL = "http://open_preprod.tan.fr/ewp/";
 
 var app = express();  
-app.use('/', function(req, res) {
+app.use('/ewp', function(req, res) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept"); 
   console.log(req.url) 
