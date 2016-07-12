@@ -27,7 +27,7 @@ module.exports = {
     [
       new webpack.optimize.UglifyJsPlugin({ minimize: true }),
       new webpack.DefinePlugin({
-        SERVER_URL: JSON.stringify("https://nantes-network.herokuapp.com/"),
+        SERVER_URL: JSON.stringify("https://nantes-network-vkphasqxgh.now.sh/"),
       })
     ] :
     [new webpack.DefinePlugin({
