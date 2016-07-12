@@ -43,6 +43,8 @@
     "@cycle/dom": "^10.0.5",
     "@cycle/http": "^9.0.2",
     "@cycle/xstream-run": "^3.0.3",
+    "express": "^4.14.0",
+    "request": "^2.73.0",
     "xstream": "^5.1.2"
   }
 }
