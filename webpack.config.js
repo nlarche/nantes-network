@@ -23,14 +23,18 @@ module.exports = {
       { test: /\.svg/, loader: 'svg-url-loader' },
     ]
   },
-  // plugins: (ENV === "production" ?
-  //   [
-  //     new webpack.optimize.UglifyJsPlugin({ minimize: true }),
-  //   ] :
-  //   [new webpack.HotModuleReplacementPlugin()]
-  // ),
+  plugins: (ENV === "production" ?
+    [
+      new webpack.optimize.UglifyJsPlugin({ minimize: true }),
+      new webpack.DefinePlugin({
+        SERVER_URL: JSON.stringify("https://nlarche.github.io/nantes-network/"),
+      })
+    ] :
+    [new webpack.DefinePlugin({
+      SERVER_URL: JSON.stringify("http://localhost:3030/"),
+    })]
+  ),
   devServer: {
-    contentBase: "./",
-    //hot: true,
+    contentBase: "./",    
   }
 };

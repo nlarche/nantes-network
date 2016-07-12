@@ -1,5 +1,6 @@
+/* global SERVER_URL */
 import xs from 'xstream';
-const BASE_URL = "http://localhost:3001/ewp/tempsattente.json";
+const BASE_URL = SERVER_URL + "ewp/tempsattente.json"; 
 const INTERVAL_TIME = 30000;
 const CATEGORY = 'liste';
 
@@ -21,7 +22,7 @@ export default {
         value: 'COMM'
       })
       .map(l => ({
-        url: `${BASE_URL}`, /*/${l.value}`, */
+        url: `${BASE_URL}/${l.value}`,
         method: 'GET',
         category: CATEGORY,
         headers: {
